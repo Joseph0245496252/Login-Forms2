@@ -58,11 +58,12 @@ class App extends Component {
 const styles = StyleSheet.create({
   container: {
     marginTop:50,
-    marginHorizontal: 50
+    marginHorizontal: 50,
+
   },
   loginText: {
     fontSize: 50,
-    color: "#5100ad"
+    color: "#fc7b03"
 
   },
 
@@ -71,7 +72,7 @@ const styles = StyleSheet.create({
   },
   input: {
     borderBottomWidth: 2,
-    borderBottomColor: "#5100ad",
+    borderBottomColor: "#fc7b03",
     fontSize: 20,
     height: 50,
     marginTop:20
@@ -85,7 +86,7 @@ const styles = StyleSheet.create({
 
   buttonContainer:{
     height:50,
-    backgroundColor:"#5100ad",
+    backgroundColor:"#fc7b03",
     justifyContent:"center",
     alignItems:"center",
     borderRadius:10,
