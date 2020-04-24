@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity, ScrollView } from 'react-native';
 
 
 
@@ -18,7 +18,7 @@ class App extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
+      <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
 
         <View style={styles.loginTextContainer}>
           <Text style={styles.loginText}>Log in</Text>
@@ -48,7 +48,7 @@ class App extends Component {
           <Text style={styles.signupupText}>Sign up</Text>
         </View>
 
-      </View>
+      </ScrollView>
     );
   }
 }
